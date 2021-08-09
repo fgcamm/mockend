@@ -10,5 +10,19 @@
     "post": {
       "belongsTo": "Post"
     }
+  },
+  "User": {
+    "name": { "string": {} },
+     "menu": {
+      "hasMany": "Menu"
+    }
+    ,
+  "Menu": {
+    "path": { "string": {} },
+     "user": {
+      "belongsTo": "User"
+    }
+    
+  }
   }
 }
