@@ -13,16 +13,14 @@
   },
   "User": {
     "name": { "string": {} },
-     "menu": {
+    "menus": {
       "hasMany": "Menu"
     }
-    ,
+  } ,
   "Menu": {
     "path": { "string": {} },
-     "user": {
+    "user": {
       "belongsTo": "User"
-    }
-    
-  }
-  }
+    }    
+  }  
 }
